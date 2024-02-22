@@ -4,8 +4,39 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: cadetblue;
   border: 1px solid black;
   margin: 5px;
   color: white;
+}
+
+body{
+background-color: var(--background);
+}
+:root{
+--background: #083b4c;
+--numeri: #1389b2;
+--fizz: #0cd6a1;
+--buzz: #ffd166;
+--fizzbuzz: #f0466f;
+}
+
+h1{
+color: white;
+font-size: 100px;
+}
+
+.numeri{
+background-color: var(--numeri);
+}
+
+.fizz{
+background-color: var(--fizz);
+}
+
+.buzz{
+background-color: var(--buzz);
+}
+
+.fizzbuzz{
+background-color: var(--fizzbuzz);
 }
