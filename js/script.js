@@ -15,18 +15,19 @@ for(let i = 1; i <= 100; i++){
     </div>
     `
     console.log("buzz");
+  }else if ((i % 3 === 0) && (i % 5 === 0)){
+    container.innerHTML +=`
+    <div class="box">
+      ${"fizzbuzz"}
+    </div>
+    `
   }else{
     container.innerHTML +=`
     <div class="box">
       ${i}
     </div>
-    `
-  console.log("fizzbuzz");
+    `;
+  
   }
-  // container.innerHTML +=`
-  // <div class="box">
-  //     ${i}
-  //   </div>
-  // `
-  // console.log(i);
+ 
 }
